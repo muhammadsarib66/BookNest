@@ -6,7 +6,6 @@ import VerifyOtp from './screen/auth/VerifyOtp';
 import SetNewPassword from './screen/auth/SetNewPassword';
 import Home from './screen/Home/Home';
 import ScrollToTop from './components/ScrollToTop';
-import Signup from './screen/auth/SignUpForm';
 
 const App = () => {
   const token = localStorage.getItem("token");
